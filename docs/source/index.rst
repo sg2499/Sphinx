@@ -36,7 +36,17 @@ Remember to share this guide so that others can learn Jubler too!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Beginners
+   :caption: For Beginners
 
    creating
+   customizing
+   saving
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: For Advanced Users
+
+   synchronizing
+   translating
 
