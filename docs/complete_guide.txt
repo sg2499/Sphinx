@@ -1,0 +1,456 @@
+C:\SG\Sphinx>python -m venv Sphinx_01
+
+C:\SG\Sphinx>source Sphinx_02/bin/activate
+'source' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\SG\Sphinx>cd Sphinx_01
+
+C:\SG\Sphinx\Sphinx_01>Scripts\activate.bat
+
+(Sphinx_01) C:\SG\Sphinx\Sphinx_01>mkdir docs
+
+(Sphinx_01) C:\SG\Sphinx\Sphinx_01>cd ..
+
+(Sphinx_01) C:\SG\Sphinx>mkdir docs
+
+(Sphinx_01) C:\SG\Sphinx>cd docs
+
+(Sphinx_01) C:\SG\Sphinx\docs>pip install sphinx
+Collecting sphinx
+  Downloading sphinx-7.0.1-py3-none-any.whl (3.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 10.1 MB/s eta 0:00:00
+Collecting sphinxcontrib-applehelp
+  Downloading sphinxcontrib_applehelp-1.0.4-py3-none-any.whl (120 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 120.6/120.6 kB 6.9 MB/s eta 0:00:00
+Collecting sphinxcontrib-devhelp
+  Downloading sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl (84 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.7/84.7 kB ? eta 0:00:00
+Collecting sphinxcontrib-jsmath
+  Downloading sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl (5.1 kB)
+Collecting sphinxcontrib-htmlhelp>=2.0.0
+  Downloading sphinxcontrib_htmlhelp-2.0.1-py3-none-any.whl (99 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.8/99.8 kB 5.6 MB/s eta 0:00:00
+Collecting sphinxcontrib-serializinghtml>=1.1.5
+  Downloading sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl (94 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.0/94.0 kB ? eta 0:00:00
+Collecting sphinxcontrib-qthelp
+  Downloading sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl (90 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.6/90.6 kB ? eta 0:00:00
+Collecting Jinja2>=3.0
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 kB 7.7 MB/s eta 0:00:00
+Collecting Pygments>=2.13
+  Downloading Pygments-2.15.1-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 75.7 MB/s eta 0:00:00
+Collecting docutils<0.21,>=0.18.1
+  Downloading docutils-0.20.1-py3-none-any.whl (572 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 572.7/572.7 kB 35.2 MB/s eta 0:00:00
+Collecting snowballstemmer>=2.0
+  Downloading snowballstemmer-2.2.0-py2.py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.0/93.0 kB ? eta 0:00:00
+Collecting babel>=2.9
+  Downloading Babel-2.12.1-py3-none-any.whl (10.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 29.2 MB/s eta 0:00:00
+Collecting alabaster<0.8,>=0.7
+  Downloading alabaster-0.7.13-py3-none-any.whl (13 kB)
+Collecting imagesize>=1.3
+  Downloading imagesize-1.4.1-py2.py3-none-any.whl (8.8 kB)
+Collecting requests>=2.25.0
+  Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB ? eta 0:00:00
+Collecting packaging>=21.0
+  Downloading packaging-23.1-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 kB 2.6 MB/s eta 0:00:00
+Collecting colorama>=0.4.5
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.2-cp311-cp311-win_amd64.whl (16 kB)
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.1.0-cp311-cp311-win_amd64.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.7/96.7 kB 5.4 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB ? eta 0:00:00
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.0.2-py3-none-any.whl (123 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.2/123.2 kB 7.1 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2023.5.7-py3-none-any.whl (156 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.0/157.0 kB ? eta 0:00:00
+Installing collected packages: snowballstemmer, urllib3, sphinxcontrib-serializinghtml, sphinxcontrib-qthelp, sphinxcontrib-jsmath, sphinxcontrib-htmlhelp, sphinxcontrib-devhelp, sphinxcontrib-applehelp, Pygments, packaging, MarkupSafe, imagesize, idna, docutils, colorama, charset-normalizer, certifi, babel, alabaster, requests, Jinja2, sphinx
+Successfully installed Jinja2-3.1.2 MarkupSafe-2.1.2 Pygments-2.15.1 alabaster-0.7.13 babel-2.12.1 certifi-2023.5.7 charset-normalizer-3.1.0 colorama-0.4.6 docutils-0.20.1 idna-3.4 imagesize-1.4.1 packaging-23.1 requests-2.31.0 snowballstemmer-2.2.0 sphinx-7.0.1 sphinxcontrib-applehelp-1.0.4 sphinxcontrib-devhelp-1.0.2 sphinxcontrib-htmlhelp-2.0.1 sphinxcontrib-jsmath-1.0.1 sphinxcontrib-qthelp-1.0.3 sphinxcontrib-serializinghtml-1.1.5 urllib3-2.0.2
+
+[notice] A new release of pip available: 22.3.1 -> 23.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(Sphinx_01) C:\SG\Sphinx\docs>sphinx-quickstart
+Welcome to the Sphinx 7.0.1 quickstart utility.
+
+Please enter values for the following settings (just press Enter to
+accept a default value, if one is given in brackets).
+
+Selected root path: .
+
+You have two options for placing the build directory for Sphinx output.
+Either, you use a directory "_build" within the root path, or you separate
+"source" and "build" directories within the root path.
+> Separate source and build directories (y/n) [n]: y
+
+The project name will occur in several places in the built documentation.
+> Project name: Sphinx Test Run v1
+> Author name(s): Shailesh Gupta
+> Project release []: STR.1.0.1
+
+If the documents are to be written in a language other than English,
+you can select a language here by its language code. Sphinx will then
+translate text that it generates into that language.
+
+For a list of supported codes, see
+https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language.
+> Project language [en]:
+
+Creating file C:\SG\Sphinx\docs\source\conf.py.
+Creating file C:\SG\Sphinx\docs\source\index.rst.
+Creating file C:\SG\Sphinx\docs\Makefile.
+Creating file C:\SG\Sphinx\docs\make.bat.
+
+Finished: An initial directory structure has been created.
+
+You should now populate your master file C:\SG\Sphinx\docs\source\index.rst and create other documentation
+source files. Use the Makefile to build the docs, like so:
+   make builder
+where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
+
+
+(Sphinx_01) C:\SG\Sphinx\docs>cd source
+
+(Sphinx_01) C:\SG\Sphinx\docs\source>vim index.rst
+'vim' is not recognized as an internal or external command,
+operable program or batch file.
+
+(Sphinx_01) C:\SG\Sphinx\docs\source>type index.rst
+.. Sphinx Test Run v1 documentation master file, created by
+   sphinx-quickstart on Thu Jun  1 16:46:10 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to Sphinx Test Run v1's documentation!
+==============================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+(Sphinx_01) C:\SG\Sphinx\docs\source>cd ..
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v7.0.1
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output...
+building [html]: targets for 1 source files that are out of date
+updating environment: [new config] 1 added, 0 changed, 0 removed
+reading sources... [100%] index
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] index
+C:\SG\Sphinx\docs\source\index.rst:17: WARNING: undefined label: 'settingup'
+C:\SG\Sphinx\docs\source\index.rst:19: WARNING: undefined label: 'create'
+C:\SG\Sphinx\docs\source\index.rst:20: WARNING: undefined label: 'customize'
+C:\SG\Sphinx\docs\source\index.rst:21: WARNING: undefined label: 'save'
+C:\SG\Sphinx\docs\source\index.rst:25: WARNING: undefined label: 'synchronize'
+C:\SG\Sphinx\docs\source\index.rst:26: WARNING: undefined label: 'translate'
+generating indices... genindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 6 warnings.
+
+The HTML pages are in build\html.
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v7.0.1
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output...
+building [html]: targets for 1 source files that are out of date
+updating environment: 0 added, 1 changed, 0 removed
+reading sources... [100%] index
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] index
+generating indices... genindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded.
+
+The HTML pages are in build\html.
+
+(Sphinx_01) C:\SG\Sphinx\docs>cd build\html
+
+(Sphinx_01) C:\SG\Sphinx\docs\build\html>open -a"Google Chrome" index.html
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+(Sphinx_01) C:\SG\Sphinx\docs\build\html>cd ..
+
+(Sphinx_01) C:\SG\Sphinx\docs\build>cd ..
+
+(Sphinx_01) C:\SG\Sphinx\docs>sphinx-apidoc -0 docs source/
+usage: sphinx-apidoc [OPTIONS] -o <OUTPUT_PATH> <MODULE_PATH> [EXCLUDE_PATTERN, ...]
+sphinx-apidoc: error: the following arguments are required: -o/--output-dir
+
+(Sphinx_01) C:\SG\Sphinx\docs>sphinx-apidoc -0 source/
+usage: sphinx-apidoc [OPTIONS] -o <OUTPUT_PATH> <MODULE_PATH> [EXCLUDE_PATTERN, ...]
+sphinx-apidoc: error: the following arguments are required: -o/--output-dir
+
+(Sphinx_01) C:\SG\Sphinx\docs>cd ..
+
+(Sphinx_01) C:\SG\Sphinx>sphinx-apidoc -o docs source/
+C:\SG\Sphinx\source is not a directory.
+
+(Sphinx_01) C:\SG\Sphinx>pip install sphinx-rtd-theme
+Collecting sphinx-rtd-theme
+  Downloading sphinx_rtd_theme-1.2.1-py2.py3-none-any.whl (2.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 11.3 MB/s eta 0:00:00
+Collecting sphinx<7,>=1.6
+  Downloading sphinx-6.2.1-py3-none-any.whl (3.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 17.5 MB/s eta 0:00:00
+Collecting docutils<0.19
+  Downloading docutils-0.18.1-py2.py3-none-any.whl (570 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 570.0/570.0 kB ? eta 0:00:00
+Collecting sphinxcontrib-jquery!=3.0.0,>=2.0.0
+  Downloading sphinxcontrib_jquery-4.1-py2.py3-none-any.whl (121 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.1/121.1 kB 6.9 MB/s eta 0:00:00
+Requirement already satisfied: sphinxcontrib-applehelp in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.0.4)
+Requirement already satisfied: sphinxcontrib-devhelp in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.0.2)
+Requirement already satisfied: sphinxcontrib-jsmath in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.0.1)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.0.1)
+Requirement already satisfied: sphinxcontrib-serializinghtml>=1.1.5 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.1.5)
+Requirement already satisfied: sphinxcontrib-qthelp in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.0.3)
+Requirement already satisfied: Jinja2>=3.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (3.1.2)
+Requirement already satisfied: Pygments>=2.13 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.15.1)
+Requirement already satisfied: snowballstemmer>=2.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.2.0)
+Requirement already satisfied: babel>=2.9 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.12.1)
+Requirement already satisfied: alabaster<0.8,>=0.7 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (0.7.13)
+Requirement already satisfied: imagesize>=1.3 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.4.1)
+Requirement already satisfied: requests>=2.25.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.31.0)
+Requirement already satisfied: packaging>=21.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (23.1)
+Requirement already satisfied: colorama>=0.4.5 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from Jinja2>=3.0->sphinx<7,>=1.6->sphinx-rtd-theme) (2.1.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\sg\sphinx\sphinx_01\lib\site-packages (from requests>=2.25.0->sphinx<7,>=1.6->sphinx-rtd-theme) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\sg\sphinx\sphinx_01\lib\site-packages (from requests>=2.25.0->sphinx<7,>=1.6->sphinx-rtd-theme) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\sg\sphinx\sphinx_01\lib\site-packages (from requests>=2.25.0->sphinx<7,>=1.6->sphinx-rtd-theme) (2.0.2)
+Requirement already satisfied: certifi>=2017.4.17 in c:\sg\sphinx\sphinx_01\lib\site-packages (from requests>=2.25.0->sphinx<7,>=1.6->sphinx-rtd-theme) (2023.5.7)
+Installing collected packages: docutils, sphinx, sphinxcontrib-jquery, sphinx-rtd-theme
+  Attempting uninstall: docutils
+    Found existing installation: docutils 0.20.1
+    Uninstalling docutils-0.20.1:
+      Successfully uninstalled docutils-0.20.1
+  Attempting uninstall: sphinx
+    Found existing installation: Sphinx 7.0.1
+    Uninstalling Sphinx-7.0.1:
+      Successfully uninstalled Sphinx-7.0.1
+Successfully installed docutils-0.18.1 sphinx-6.2.1 sphinx-rtd-theme-1.2.1 sphinxcontrib-jquery-4.1
+
+[notice] A new release of pip available: 22.3.1 -> 23.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(Sphinx_01) C:\SG\Sphinx>cd docs
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v6.2.1
+loading pickled environment... done
+
+Theme error:
+no theme named 'sphinx-rtd-theme' found (missing theme.conf?)
+
+(Sphinx_01) C:\SG\Sphinx\docs>python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\sg\sphinx\sphinx_01\lib\site-packages (22.3.1)
+Collecting pip
+  Using cached pip-23.1.2-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 22.3.1
+    Uninstalling pip-22.3.1:
+      Successfully uninstalled pip-22.3.1
+Successfully installed pip-23.1.2
+
+(Sphinx_01) C:\SG\Sphinx\docs>pip install sphinx-rtd-theme
+Requirement already satisfied: sphinx-rtd-theme in c:\sg\sphinx\sphinx_01\lib\site-packages (1.2.1)
+Requirement already satisfied: sphinx<7,>=1.6 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx-rtd-theme) (6.2.1)
+Requirement already satisfied: docutils<0.19 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx-rtd-theme) (0.18.1)
+Requirement already satisfied: sphinxcontrib-jquery!=3.0.0,>=2.0.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx-rtd-theme) (4.1)
+Requirement already satisfied: sphinxcontrib-applehelp in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.0.4)
+Requirement already satisfied: sphinxcontrib-devhelp in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.0.2)
+Requirement already satisfied: sphinxcontrib-jsmath in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.0.1)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.0.1)
+Requirement already satisfied: sphinxcontrib-serializinghtml>=1.1.5 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.1.5)
+Requirement already satisfied: sphinxcontrib-qthelp in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.0.3)
+Requirement already satisfied: Jinja2>=3.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (3.1.2)
+Requirement already satisfied: Pygments>=2.13 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.15.1)
+Requirement already satisfied: snowballstemmer>=2.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.2.0)
+Requirement already satisfied: babel>=2.9 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.12.1)
+Requirement already satisfied: alabaster<0.8,>=0.7 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (0.7.13)
+Requirement already satisfied: imagesize>=1.3 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (1.4.1)
+Requirement already satisfied: requests>=2.25.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (2.31.0)
+Requirement already satisfied: packaging>=21.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (23.1)
+Requirement already satisfied: colorama>=0.4.5 in c:\sg\sphinx\sphinx_01\lib\site-packages (from sphinx<7,>=1.6->sphinx-rtd-theme) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\sg\sphinx\sphinx_01\lib\site-packages (from Jinja2>=3.0->sphinx<7,>=1.6->sphinx-rtd-theme) (2.1.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\sg\sphinx\sphinx_01\lib\site-packages (from requests>=2.25.0->sphinx<7,>=1.6->sphinx-rtd-theme) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\sg\sphinx\sphinx_01\lib\site-packages (from requests>=2.25.0->sphinx<7,>=1.6->sphinx-rtd-theme) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\sg\sphinx\sphinx_01\lib\site-packages (from requests>=2.25.0->sphinx<7,>=1.6->sphinx-rtd-theme) (2.0.2)
+Requirement already satisfied: certifi>=2017.4.17 in c:\sg\sphinx\sphinx_01\lib\site-packages (from requests>=2.25.0->sphinx<7,>=1.6->sphinx-rtd-theme) (2023.5.7)
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v6.2.1
+loading pickled environment... done
+
+Theme error:
+no theme named 'sphinx-rtd-theme' found (missing theme.conf?)
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v6.2.1
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output...
+building [html]: targets for 1 source files that are out of date
+updating environment: [config changed ('project')] 1 added, 0 changed, 0 removed
+reading sources... [100%] index
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] index
+generating indices... genindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded.
+
+The HTML pages are in build\html.
+
+(Sphinx_01) C:\SG\Sphinx\docs>cd source
+
+(Sphinx_01) C:\SG\Sphinx\docs\source>echo "" > before_you_begin.rst
+
+(Sphinx_01) C:\SG\Sphinx\docs\source>cd ..
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v6.2.1
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output...
+building [html]: targets for 1 source files that are out of date
+updating environment: 1 added, 1 changed, 0 removed
+reading sources... [100%] index
+C:\SG\Sphinx\docs\source\before_you_begin.rst:30: WARNING: image file not readable: "C:SGSphinxdocssourceimagesJubler_Logo.jpg"
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] index
+generating indices... genindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 1 warning.
+
+The HTML pages are in build\html.
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v6.2.1
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output...
+building [html]: targets for 1 source files that are out of date
+updating environment: 0 added, 1 changed, 0 removed
+reading sources... [100%] before_you_begin
+C:\SG\Sphinx\docs\source\before_you_begin.rst:30: WARNING: image file not readable: "C:SGSphinxdocssourceimagesJubler_Logo.png"
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] index
+generating indices... genindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 1 warning.
+
+The HTML pages are in build\html.
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v6.2.1
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output...
+building [html]: targets for 1 source files that are out of date
+updating environment: 0 added, 1 changed, 0 removed
+reading sources... [100%] before_you_begin
+C:\SG\Sphinx\docs\source\before_you_begin.rst:30: WARNING: image file not readable: images/Jubler_Logo.png
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] index
+generating indices... genindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 1 warning.
+
+The HTML pages are in build\html.
+
+(Sphinx_01) C:\SG\Sphinx\docs>make html
+Running Sphinx v6.2.1
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output...
+building [html]: targets for 0 source files that are out of date
+updating environment: 0 added, 1 changed, 0 removed
+reading sources... [100%] before_you_begin
+C:\SG\Sphinx\docs\source\before_you_begin.rst:30: WARNING: image file not readable: images/Jubler_Logo.png
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [100%] index
+generating indices... genindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 1 warning.
+
+The HTML pages are in build\html.
+
+(Sphinx_01) C:\SG\Sphinx\docs>
